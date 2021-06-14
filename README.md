@@ -49,10 +49,10 @@
 |tax_rate|28416 non-null: float64|   tax rate for property.
 |county_name|28418 non-null:  object|     county name for fip value.
 |total_squareft|25179 non-null: int64 |    Calculated total finished living area of the home. 
-|three_or_less_bedrooms| 25179 non-null: int64|
-|four_or_more_bedrooms| 25179 non-null: int64|
-|three_or_more_bathrooms| 25179 non-null: int64|
-|two_half_or_less_bathrooms| 25179 non-null: int64|
+|three_or_less_bedrooms| 25179 non-null: int64| 1 for has three or less bedrooms, 0 for doesnt have three or less.
+|four_or_more_bedrooms| 25179 non-null: int64| 1 for has tfour or more bedrooms, 0 for doesnt have four or more bedrooms
+|three_or_more_bathrooms| 25179 non-null: int64| 1 for has three or less bedrooms, 0 for doesnt have three or less.
+|two_half_or_less_bathrooms| 25179 non-null: int64| 1 for has two and half or less bathrooms, 0 for doesnt have two and half or less bathrooms
 
 
 
