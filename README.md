@@ -41,15 +41,14 @@
 
 |Feature|Datatype|Definition|
 |:-------|:--------|:----------|
-
-|bathroomcnt| 25179 non-null: float64 |Number of bathrooms in home including fractional bathrooms|
-|bedroomcnt| 25179 non-null: float64 |Number of bedrooms in home. 
-|fips| 25179 non-null: float64 |Federal Information Processing Standard code -  see https://en.wikipedia.org/wiki/FIPS_county_code for more details.
-|parcelid| 25179 non-null: int64 |Unique identifier for parcels (lots). 
-|taxamount| |The total property tax assessed for that assessment year.
-|tax_rate|28416 non-null: float64| tax rate for property.
-|county_name|28418 non-null:  object| county name for fip value.
-|total_squareft|25179 non-null: int64  |Calculated total finished living area of the home. 
+|bathroomcnt| 25179 non-null: float64 |    Number of bathrooms in home including fractional bathrooms |
+|bedroomcnt | 25179 non-null: float64 |    Number of bedrooms in home. 
+|fips | 25179 non-null: float64 |     Federal Information Processing Standard code -  see https://en.wikipedia.org/wiki/FIPS_county_code for more details.
+|parcelid| 25179 non-null: int64 |   Unique identifier for parcels (lots). 
+|taxamount| |   The total property tax assessed for that assessment year.
+|tax_rate|28416 non-null: float64|   tax rate for property.
+|county_name|28418 non-null:  object|     county name for fip value.
+|total_squareft|25179 non-null: int64 |    Calculated total finished living area of the home. 
 |three_or_less_bedrooms| 25179 non-null: int64|
 |four_or_more_bedrooms| 25179 non-null: int64|
 |three_or_more_bathrooms| 25179 non-null: int64|
